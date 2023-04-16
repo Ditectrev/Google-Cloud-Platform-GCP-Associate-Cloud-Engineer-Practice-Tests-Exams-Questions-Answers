@@ -86,6 +86,8 @@
 
 ### Your company has a 3-tier solution running on Compute Engine. The configuration of the current infrastructure is shown below. Each tier has a service account that is associated with all instances within it. You need to enable communication on TCP port 8080 between tiers as follows: Instances in tier #1 must communicate with tier #2. Instances in tier #2 must communicate with tier #3. What should you do?
 
+![3-tier solution running on Compute Engine](images/tier3.png)
+
 - [ ] 1. Create an ingress firewall rule with the following settings: Targets: all instances. Source filter: IP ranges (with the range set to 10.0.2.0/24). Protocols: allow all. 2. Create an ingress firewall rule with the following settings: Targets: all instances. Source filter: IP ranges (with the range set to 10.0.1.0/24). Protocols: allow all.
 - [x] 1. Create an ingress firewall rule with the following settings: Targets: all instances with tier #2 service account. Source filter: all instances with tier #1 service account. Protocols: allow TCP: 8080. 2. Create an ingress firewall rule with the following settings: Targets: all instances with tier #3 service account. Source filter: all instances with tier #2 service account. Protocols: allow TCP: 8080.
 - [ ] 1. Create an ingress firewall rule with the following settings: Targets: all instances with tier #2 service account. Source filter: all instances with tier #1 service account. Protocols: allow all. 2. Create an ingress firewall rule with the following settings: Targets: all instances with tier #3 service account. Source filter: all instances with tier #2 service account. Protocols: allow all.
@@ -527,6 +529,8 @@
 
 ### You are building a pipeline to process time-series data. Which Google Cloud Platform services should you put in boxes 1,2,3, and 4?
 
+![Google Cloud Platform services](images/pipeline.jpeg)
+
 - [ ] Cloud Pub/Sub, Cloud Dataflow, Cloud Datastore, BigQuery.
 - [ ] Firebase Messages, Cloud Pub/Sub, Cloud Spanner, BigQuery.
 - [ ] Cloud Pub/Sub, Cloud Storage, BigQuery, Cloud Bigtable.
@@ -553,7 +557,9 @@
 - [ ] 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Logging.
 - [ ] 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Monitoring.
 
-### You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below: You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?
+### You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below. You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?
+
+![YAML of microservice myapp1](images/yaml.jpg)
 
 - [ ] Store the database password inside the Docker image of the container, not in the YAML file.
 - [x] Store the database password inside a Secret object. Modify the YAML file to populate the DB_PASSWORD environment variable from the Secret.
@@ -574,7 +580,11 @@
 - [ ] Create a service account, and give it access to Cloud Storage. Create a P12 key for this service account and use it as an imagePullSecrets in Kubernetes.
 - [ ] Configure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account.
 
-### You deployed a new application inside your Google Kubernetes Engine cluster using the YAML file specified below. You check the status of the deployed pods and notice that one of them is still in PENDING status: You want to find out why the pod is stuck in pending status. What should you do?
+### You deployed a new application inside your Google Kubernetes Engine cluster using the YAML file specified below. You check the status of the deployed pods and notice that one of them is still in PENDING status. You want to find out why the pod is stuck in pending status. What should you do?
+
+![YAML of Google Kubernetes Engine](images/yaml2.png)
+
+![Deployed pods status](images/pods.png)
 
 - [ ] Review details of the myapp-service Service object and check for error messages.
 - [ ] Review details of the myapp-deployment Deployment object and check for error messages.
