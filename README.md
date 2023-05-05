@@ -91,7 +91,7 @@
 | 83  | [Your organization uses G Suite for communication and collaboration. All users in your organization have a G Suite account. You want to grant some G Suite users access to your Cloud Platform project. What should you do?](#your-organization-uses-g-suite-for-communication-and-collaboration-all-users-in-your-organization-have-a-g-suite-account-you-want-to-grant-some-g-suite-users-access-to-your-cloud-platform-project-what-should-you-do)   |
 | 84  | [You have a Google Cloud Platform account with access to both production and development projects. You need to create an automated process to list all compute instances in development and production projects on a daily basis. What should you do?](#you-have-a-google-cloud-platform-account-with-access-to-both-production-and-development-projects-you-need-to-create-an-automated-process-to-list-all-compute-instances-in-development-and-production-projects-on-a-daily-basis-what-should-you-do)   |
 | 85  | [You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?](#you-have-a-large-5-tb-avro-file-stored-in-a-cloud-storage-bucket-your-analysts-are-proficient-only-in-sql-and-need-access-to-the-data-stored-in-this-file-you-want-to-find-a-cost-effective-way-to-complete-their-request-as-soon-as-possible-what-should-you-do)   |
-| 86  | [You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?](#question86)   |
+| 86  | [You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?](#you-need-to-verify-that-a-google-cloud-platform-service-account-was-created-at-a-particular-time-what-should-you-do)   |
 | 87  | [You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?](#question87)   |
 | 88  | [You need to set a budget alert for use of Compute Engineer services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?](#question88)   |
 | 89  | [You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?](#question89)   |
@@ -964,10 +964,10 @@
 
 ### You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?
 
-- [ ] Filter the Activity log to view the Configuration category. Filter the Resource type to Service Account.
+- [x] Filter the Activity log to view the Configuration category. Filter the Resource type to Service Account.
 - [ ] Filter the Activity log to view the Configuration category. Filter the Resource type to Google Project.
 - [ ] Filter the Activity log to view the Data Access category. Filter the Resource type to Service Account.
-- [x] Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project.
+- [ ] Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project.
 
 **[⬆ Back to Top](#table-of-contents)**
 
