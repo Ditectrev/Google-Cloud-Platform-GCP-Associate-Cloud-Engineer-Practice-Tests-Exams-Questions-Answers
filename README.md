@@ -93,7 +93,7 @@
 | 85  | [You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?](#you-have-a-large-5-tb-avro-file-stored-in-a-cloud-storage-bucket-your-analysts-are-proficient-only-in-sql-and-need-access-to-the-data-stored-in-this-file-you-want-to-find-a-cost-effective-way-to-complete-their-request-as-soon-as-possible-what-should-you-do)   |
 | 86  | [You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?](#you-need-to-verify-that-a-google-cloud-platform-service-account-was-created-at-a-particular-time-what-should-you-do)   |
 | 87  | [You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?](#you-deployed-an-ldap-server-on-compute-engine-that-is-reachable-via-tls-through-port-636-using-udp-you-want-to-make-sure-it-is-reachable-by-clients-over-that-port-what-should-you-do)   |
-| 88  | [You need to set a budget alert for use of Compute Engineer services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?](#question88)   |
+| 88  | [You need to set a budget alert for use of Compute Engineer services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?](#you-need-to-set-a-budget-alert-for-use-of-compute-engineer-services-on-one-of-the-three-google-cloud-platform-projects-that-you-manage-all-three-projects-are-linked-to-a-single-billing-account-what-should-you-do)   |
 | 89  | [You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?](#question89)   |
 | 90  | [You want to configure a solution for archiving data in a Cloud Storage bucket. The solution must be cost-effective. Data with multiple versions should be archived after 30 days. Previous versions are accessed once a month for reporting. This archive data is also occasionally updated at month-end. What should you do?](#question90)   |
 | 91  | [Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?](#question91)   |
@@ -982,8 +982,8 @@
 
 ### You need to set a budget alert for use of Compute Engineer services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?
 
-- [ ] Verify that you are the project billing administrator. Select the associated billing account and create a budget and alert for the appropriate project.
-- [x] Verify that you are the project billing administrator. Select the associated billing account and create a budget and a custom alert.
+- [x] Verify that you are the project billing administrator. Select the associated billing account and create a budget and alert for the appropriate project.
+- [ ] Verify that you are the project billing administrator. Select the associated billing account and create a budget and a custom alert.
 - [ ] Verify that you are the project administrator. Select the associated billing account and create a budget for the appropriate project.
 - [ ] Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert.
 
