@@ -87,7 +87,7 @@
 | 79  | [You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?](#you-need-to-enable-traffic-between-multiple-groups-of-compute-engine-instances-that-are-currently-running-two-different-gcp-projects-each-group-of-compute-engine-instances-is-running-in-its-own-vpc-what-should-you-do)   |
 | 80  | [You want to add a new auditor to a Google Cloud Platform project. The auditor should be allowed to read, but not modify, all project items. How should you configure the auditor's permissions?](#you-want-to-add-a-new-auditor-to-a-google-cloud-platform-project-the-auditor-should-be-allowed-to-read-but-not-modify-all-project-items-how-should-you-configure-the-auditors-permissions)   |
 | 81  | [You are operating a Google Kubernetes Engine (GKE) cluster for your company where different teams can run non-production workloads. Your Machine Learning (ML) team needs access to Nvidia Tesla P100 GPUs to train their models. You want to minimize effort and cost. What should you do?](#you-are-operating-a-google-kubernetes-engine-gke-cluster-for-your-company-where-different-teams-can-run-non-production-workloads-your-machine-learning-ml-team-needs-access-to-nvidia-tesla-p100-gpus-to-train-their-models-you-want-to-minimize-effort-and-cost-what-should-you-do)   |
-| 82  | [Your VMs are running in a subnet that has a subnet mask of 255.255.255.240 The current subnet has no more free IP addresses and you require an additional 10 IP addresses for new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?](#question82)   |
+| 82  | [Your VMs are running in a subnet that has a subnet mask of 255.255.255.240 The current subnet has no more free IP addresses and you require an additional 10 IP addresses for new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?](#your-vms-are-running-in-a-subnet-that-has-a-subnet-mask-of-255255255240-the-current-subnet-has-no-more-free-ip-addresses-and-you-require-an-additional-10-ip-addresses-for-new-vms-the-existing-and-new-vms-should-all-be-able-to-reach-each-other-without-additional-routes-what-should-you-do)   |
 | 83  | [Your organization uses G Suite for communication and collaboration. All users in your organization have a G Suite account. You want to grant some G Suite users access to your Cloud Platform project. What should you do?](#question83)   |
 | 84  | [You have a Google Cloud Platform account with access to both production and development projects. You need to create an automated process to list all compute instances in development and production projects on a daily basis. What should you do?](#question84)   |
 | 85  | [You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?](#question85)   |
@@ -928,9 +928,9 @@
 
 ### Your VMs are running in a subnet that has a subnet mask of 255.255.255.240 The current subnet has no more free IP addresses and you require an additional 10 IP addresses for new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?
 
-- [ ] Use gcloud to expand the IP range of the current subnet.
+- [x] Use gcloud to expand the IP range of the current subnet.
 - [ ] Delete the subnet, and recreate it using a wider range of IP addresses.
-- [x] Create a new project. Use Shared VPC to share the current network with the new project.
+- [ ] Create a new project. Use Shared VPC to share the current network with the new project.
 - [ ] Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.
 
 **[⬆ Back to Top](#table-of-contents)**
