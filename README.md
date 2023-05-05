@@ -82,7 +82,7 @@
 | 74  | [You want to configure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?](#you-want-to-configure-an-ssh-connection-to-a-single-compute-engine-instance-for-users-in-the-dev1-group-this-instance-is-the-only-resource-in-this-particular-google-cloud-platform-project-that-the-dev1-users-should-be-able-to-connect-to-what-should-you-do)   |
 | 75  | [You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?](#you-need-to-produce-a-list-of-the-enabled-google-cloud-platform-apis-for-a-gcp-project-using-the-gcloud-command-line-in-the-cloud-shell-the-project-name-is-my-project-what-should-you-do)   |
 | 76  | [You are building a new version of an application hosted in an App Engine environment. You want to test the new version with 1% of users before you completely switch your application over to the new version. What should you do?](#you-are-building-a-new-version-of-an-application-hosted-in-an-app-engine-environment-you-want-to-test-the-new-version-with-1-of-users-before-you-completely-switch-your-application-over-to-the-new-version-what-should-you-do)   |
-| 77  | [You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?](#question77)   |
+| 77  | [You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?](#you-need-to-provide-a-cost-estimate-for-a-kubernetes-cluster-using-the-gcp-pricing-calculator-for-kubernetes-your-workload-requires-high-iops-and-you-will-also-be-using-disk-snapshots-you-start-by-entering-the-number-of-nodes-average-hours-and-average-days-what-should-you-do-next)   |
 | 78  | [You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to expose this new application to the public, using HTTPS on a public IP address. What should you do?](#question78)   |
 | 79  | [You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?](#question79)   |
 | 80  | [You want to add a new auditor to a Google Cloud Platform project. The auditor should be allowed to read, but not modify, all project items. How should you configure the auditor's permissions?](#question80)   |
@@ -883,9 +883,8 @@
 
 ### You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?
 
-- [x] Fill in local SS.
-- [ ] Fill in persistent disk storage and snapshot storage.
-- [ ] Add estimated cost for cluster management.
+- [x] Fill in local SSD. Fill in persistent disk storage and snapshot storage.
+- [ ] Fill in local SSD. Add estimated cost for cluster management.
 - [ ] Select Add GPUs. Fill in persistent disk storage and snapshot storage.
 - [ ] Select Add GPUs. Add estimated cost for cluster management.
 
