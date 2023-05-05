@@ -74,13 +74,13 @@
 | 66   | [For analysis purposes, you need to send all the logs from all of your Compute Engine instances to a BigQuery dataset called platform-logs. You have already installed the Cloud Logging agent on all the instances. You want to minimize cost. What should you do?](#for-analysis-purposes-you-need-to-send-all-the-logs-from-all-of-your-compute-engine-instances-to-a-bigquery-dataset-called-platform-logs-you-have-already-installed-the-cloud-logging-agent-on-all-the-instances-you-want-to-minimize-cost-what-should-you-do) |
 | 67   | [You want to deploy an application on Cloud Run that processes messages from a Cloud Pub/Sub topic. You want to follow Google-recommended practices. What should you do?](#you-want-to-deploy-an-application-on-cloud-run-that-processes-messages-from-a-cloud-pubsub-topic-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 68   | [Your projects incurred more costs than you expected last month. Your research reveals that a development GKE container emitted a huge number of logs, which resulted in higher costs. You want to disable the logs quickly using the minimum number of steps. What should you do?](#your-projects-incurred-more-costs-than-you-expected-last-month-your-research-reveals-that-a-development-gke-container-emitted-a-huge-number-of-logs-which-resulted-in-higher-costs-you-want-to-disable-the-logs-quickly-using-the-minimum-number-of-steps-what-should-you-do) |
-| 69   | [You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below: You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?](#youve-deployed-a-microservice-called-myapp1-to-a-google-kubernetes-engine-cluster-using-the-yaml-file-specified-below-you-need-to-refactor-this-configuration-so-that-the-database-password-is-not-stored-in-plain-text-you-want-to-follow-google-recommended-practices-what-should-you-do) |
+| 69   | [You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below. You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?](#youve-deployed-a-microservice-called-myapp1-to-a-google-kubernetes-engine-cluster-using-the-yaml-file-specified-below-you-need-to-refactor-this-configuration-so-that-the-database-password-is-not-stored-in-plain-text-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 70   | [You have an application running in Google Kubernetes Engine (GKE) with cluster autoscaling enabled. The application exposes a TCP endpoint. There are several replicas of this application. You have a Compute Engine instance in the same region, but in another Virtual Private Cloud (VPC), called gce-network, that has no overlapping IP ranges with the first VPC. This instance needs to connect to the application on GKE. You want to minimize effort. What should you do?](#you-have-an-application-running-in-google-kubernetes-engine-gke-with-cluster-autoscaling-enabled-the-application-exposes-a-tcp-endpoint-there-are-several-replicas-of-this-application-you-have-a-compute-engine-instance-in-the-same-region-but-in-another-virtual-private-cloud-vpc-called-gce-network-that-has-no-overlapping-ip-ranges-with-the-first-vpc-this-instance-needs-to-connect-to-the-application-on-gke-you-want-to-minimize-effort-what-should-you-do) |
-| 71   | [You are using Container Registry to centrally store your company's container images in a separate project. In another project, you want to create a GoogleKubernetes Engine (GKE) cluster. You want to ensure that Kubernetes can download images from Container Registry. What should you do?](#you-are-using-container-registry-to-centrally-store-your-companys-container-images-in-a-separate-project-in-another-project-you-want-to-create-a-google-kubernetes-engine-gke-cluster-you-want-to-ensure-that-kubernetes-can-download-images-from-container-registry-what-should-you-do)
-| 72   | [You deployed a new application inside your Google Kubernetes Engine cluster using the YAML file specified below. You check the status of the deployed pods and notice that one of them is still in PENDING status: You want to find out why the pod is stuck in pending status. What should you do?](#you-deployed-a-new-application-inside-your-google-kubernetes-engine-cluster-using-the-yaml-file-specified-below-you-check-the-status-of-the-deployed-pods-and-notice-that-one-of-them-is-still-in-pending-status-you-want-to-find-out-why-the-pod-is-stuck-in-pending-status-what-should-you-do)
-| 73  | [You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?](#question73)   |
-| 74  | [You want to configure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?](#question74)   |
-| 75  | [You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?](#question75)   |
+| 71   | [You are using Container Registry to centrally store your company's container images in a separate project. In another project, you want to create a Google Kubernetes Engine (GKE) cluster. You want to ensure that Kubernetes can download images from Container Registry. What should you do?](#you-are-using-container-registry-to-centrally-store-your-companys-container-images-in-a-separate-project-in-another-project-you-want-to-create-a-google-kubernetes-engine-gke-cluster-you-want-to-ensure-that-kubernetes-can-download-images-from-container-registry-what-should-you-do)
+| 72   | [You deployed a new application inside your Google Kubernetes Engine cluster using the YAML file specified below. You check the status of the deployed pods and notice that one of them is still in PENDING status. You want to find out why the pod is stuck in pending status. What should you do?](#you-deployed-a-new-application-inside-your-google-kubernetes-engine-cluster-using-the-yaml-file-specified-below-you-check-the-status-of-the-deployed-pods-and-notice-that-one-of-them-is-still-in-pending-status-you-want-to-find-out-why-the-pod-is-stuck-in-pending-status-what-should-you-do)
+| 73  | [You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?](#you-are-setting-up-a-windows-vm-on-compute-engine-and-want-to-make-sure-you-can-log-in-to-the-vm-via-rdp-what-should-you-do)   |
+| 74  | [You want to configure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?](#you-want-to-configure-an-ssh-connection-to-a-single-compute-engine-instance-for-users-in-the-dev1-group-this-instance-is-the-only-resource-in-this-particular-google-cloud-platform-project-that-the-dev1-users-should-be-able-to-connect-to-what-should-you-do)   |
+| 75  | [You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?](#you-need-to-produce-a-list-of-the-enabled-google-cloud-platform-apis-for-a-gcp-project-using-the-gcloud-command-line-in-the-cloud-shell-the-project-name-is-my-project-what-should-you-do)   |
 | 76  | [You are building a new version of an application hosted in an App Engine environment. You want to test the new version with 1% of users before you completely switch your application over to the new version. What should you do?](#question76)   |
 | 77  | [You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?](#question77)   |
 | 78  | [You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to expose this new application to the public, using HTTPS on a public IP address. What should you do?](#question78)   |
@@ -185,6 +185,7 @@
 | 177 | [You are creating an application that will run on Google Kubernetes Engine. You have identified MongoDB as the most suitable database system for your application and want to deploy a managed MongoDB environment that provides a support SLA. What should you do?](#question177) |
 | 178 | [You are managing a project for the Business Intelligence (BI) department in your company. A data pipeline ingests data into BigQuery via streaming. You want the users in the BI department to be able to run the custom SQL queries against the latest data in BigQuery. What should you do?](#question178) |
 | 179 | [Your company is moving its entire workload to Compute Engine. Some servers should be accessible through the Internet, and other servers should only be accessible over the internal network. All servers need to be able to talk to each other over specific ports and protocols. The current on-premises network relies on a demilitarized zone (DMZ) for the public servers and a Local Area Network (LAN) for the private servers. You need to design the networking infrastructure on Google Cloud to match these requirements. What should you do?](#question179) |
+| 180 | [You have an application that looks for its licensing server on the IP 10.0.3.21 You need to deploy the licensing server on Compute Engine. You do not want to change the configuration of the application and want the application to be able to reach the licensing server. What should you do?](#you-have-an-application-that-looks-for-its-licensing-server-on-the-ip-100321-you-need-to-deploy-the-licensing-server-on-compute-engine-you-do-not-want-to-change-the-configuration-of-the-application-and-want-the-application-to-be-able-to-reach-the-licensing-server-what-should-you-do)
 
 ### You significantly changed a complex Deployment Manager template and want to confirm that the dependencies of all defined resources are properly met before committing it to the project. You want the most rapid feedback on your changes. What should you do?
 
@@ -226,8 +227,8 @@
 
 ### You have a website hosted on App Engine standard environment. You want 1% of your users to see a new test version of the website. You want to minimize complexity.
 
-- [ ] Deploy the new version in the same application and use the –migrate option.
-- [x] Deploy the new version in the same application and use the –splits option to give a weight of 99 to the current version and a weight of 1 to the new version.
+- [ ] Deploy the new version in the same application and use the –-migrate option.
+- [x] Deploy the new version in the same application and use the –-splits option to give a weight of 99 to the current version and a weight of 1 to the new version.
 - [ ] Create a new App Engine application in the same project. Deploy the new version in that application. Use the App Engine library to proxy 1% of the requests to the new version.
 - [ ] Create a new App Engine application in the same project. Deploy the new version in that application. Configure your network load balancer to send 1% of the traffic to that new application.
 
@@ -847,27 +848,27 @@
 ### You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?
 
 - [ ] After the VM has been created, use your Google Account credentials to log in into the VM.
-- [ ] After the VM has been created, use gcloud compute reset-windows-password to retrieve the login credentials for the VM.
-- [ ] When creating the VM, add metadata to the instance using ˜windows-password` as the key and a password as the value.
-- [x] After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM.
+- [x] After the VM has been created, use gcloud compute reset-windows-password to retrieve the login credentials for the VM.
+- [ ] When creating the VM, add metadata to the instance using 'windows-password' as the key and a password as the value.
+- [ ] After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You want to configure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?
 
-- [ ] Set metadata to enable-oslogin=true for the instance. Grant the dev1 group the compute.osLogin role. Direct them to use the Cloud Shell to ssh to that instance.
+- [x] Set metadata to enable-oslogin=true for the instance. Grant the dev1 group the compute.osLogin role. Direct them to use the Cloud Shell to ssh to that instance.
 - [ ] Set metadata to enable-oslogin=true for the instance. Set the service account to no service account for that instance. Direct them to use the Cloud Shell to ssh to that instance.
 - [ ] Enable block project wide keys for the instance. Generate an SSH key for each user in the dev1 group. Distribute the keys to dev1 users and direct them to use their third-party tools to connect.
-- [x] Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect.
+- [ ] Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?
 
-- [x] Run gcloud projects list to get the project ID, and then run gcloud services list --project &lt;project ID&gt;.
+- [x] Run gcloud projects list to get the project ID, and then run gcloud services list --project <project ID>.
 - [ ] Run gcloud init to set the current project to my-project, and then run gcloud services list --available.
-- [ ] Run gcloud info to view the account value, and then run gcloud services list --account &lt;Account&gt;.
-- [ ] Run gcloud projects describe &lt;project ID&gt; to verify the project value, and then run gcloud services list --available.
+- [ ] Run gcloud info to view the account value, and then run gcloud services list --account <Account>.
+- [ ] Run gcloud projects describe <project ID> to verify the project value, and then run gcloud services list --available.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -910,10 +911,10 @@
 
 ### You want to add a new auditor to a Google Cloud Platform project. The auditor should be allowed to read, but not modify, all project items. How should you configure the auditor's permissions?
 
-- [ ] Create a custom role with view-only project permissions. Add the user`s account to the custom role.
-- [ ] Create a custom role with view-only service permissions. Add the user`s account to the custom role.
-- [x] Select the built-in IAM project Viewer role. Add the user`s account to this role.
-- [ ] Select the built-in IAM service Viewer role. Add the user`s account to this role.
+- [ ] Create a custom role with view-only project permissions. Add the user's account to the custom role.
+- [ ] Create a custom role with view-only service permissions. Add the user's account to the custom role.
+- [x] Select the built-in IAM project Viewer role. Add the user's account to this role.
+- [ ] Select the built-in IAM service Viewer role. Add the user's account to this role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -939,7 +940,7 @@
 
 - [ ] Enable Cloud Identity in the GCP Console for your domain.
 - [x] Grant them the required IAM roles using their G Suite email address.
-- [ ] Create a CSV sheet with all users` email addresses. Use the gcloud command line tool to convert them into Google Cloud Platform accounts.
+- [ ] Create a CSV sheet with all users' email addresses. Use the gcloud command line tool to convert them into Google Cloud Platform accounts.
 - [ ] In the G Suite console, add the users to a special group called cloud-console-users@yourdomain.com. Rely on the default behavior of the Cloud Platform to grant users access if they are members of this group.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1038,10 +1039,10 @@
 
 ### You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status: What is the most likely cause?
 
-- [ ] The pending Pod`s resource requests are too large to fit on a single node of the cluster.
+- [ ] The pending Pod's resource requests are too large to fit on a single node of the cluster.
 - [x] Too many Pods are already running in the cluster, and there are not enough resources left to schedule the pending Pod.
 - [ ] The node pool is configured with a service account that does not have permission to pull the container image used by the pending Pod.
-- [ ] The pending Pod was originally scheduled on a node that has been preempted between the creation of the Deployment and your verification of the Pods` status. It is currently being rescheduled on a new node.
+- [ ] The pending Pod was originally scheduled on a node that has been preempted between the creation of the Deployment and your verification of the Pods' status. It is currently being rescheduled on a new node.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1066,10 +1067,10 @@
 
 ### You are building a product on top of Google Kubernetes Engine (GKE) You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?
 
-- [ ] Use Binary Authorization and whitelist only the container images used by your customers` Pods.
-- [ ] Use the Container Analysis API to detect vulnerabilities in the containers used by your customers` Pods.
-- [x] Create a GKE node pool with a sandbox type configured to gvisor. Add the parameter runtimeClassName: gvisor to the specification of your customers` Pods.
-- [ ] Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers` Pods.
+- [ ] Use Binary Authorization and whitelist only the container images used by your customers' Pods.
+- [ ] Use the Container Analysis API to detect vulnerabilities in the containers used by your customers' Pods.
+- [x] Create a GKE node pool with a sandbox type configured to gvisor. Add the parameter runtimeClassName: gvisor to the specification of your customers' Pods.
+- [ ] Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers' Pods.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1212,8 +1213,8 @@
 
 - [ ] Assign the auditor the IAM role roles/logging.privateLogViewer. Perform the export of logs to Cloud Storage.
 - [ ] Assign the auditor the IAM role roles/logging.privateLogViewer. Direct the auditor to also review the logs for changes to Cloud IAM policy.
-- [x] Assign the auditor`s IAM user to a custom role that has logging.privateLogEntries.list permission. Perform the export of logs to Cloud Storage.
-- [ ] Assign the auditor`s IAM user to a custom role that has logging.privateLogEntries.list permission. Direct the auditor to also review the logs for changes to Cloud IAM policy.
+- [x] Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Perform the export of logs to Cloud Storage.
+- [ ] Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Direct the auditor to also review the logs for changes to Cloud IAM policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1246,19 +1247,19 @@
 
 ### An employee was terminated, but their access to Google Cloud Platform (GCP) was not removed until 2 weeks later. You need to find out this employee accessed any sensitive customer information after their termination. What should you do?
 
-- [ ] View System Event Logs in Stackdriver. Search for the user`s email as the principal.
+- [ ] View System Event Logs in Stackdriver. Search for the user's email as the principal.
 - [x] View System Event Logs in Stackdriver. Search for the service account associated with the user.
-- [ ] View Data Access audit logs in Stackdriver. Search for the user`s email as the principal.
+- [ ] View Data Access audit logs in Stackdriver. Search for the user's email as the principal.
 - [ ] View the Admin Activity log in Stackdriver. Search for the service account associated with the user.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to create a custom IAM role for use with a GCP service. All permissions in the role must be suitable for production use. You also want to clearly share with your organization the status of the custom role. This will be the first version of the custom role. What should you do?
 
-- [ ] Use permissions in your role that use the ˜supported` support level for role permissions. Set the role stage to ALPHA while testing the role permissions.
-- [ ] Use permissions in your role that use the ˜supported` support level for role permissions. Set the role stage to BETA while testing the role permissions.
-- [x] Use permissions in your role that use the ˜testing` support level for role permissions. Set the role stage to ALPHA while testing the role permissions.
-- [ ] Use permissions in your role that use the ˜testing` support level for role permissions. Set the role stage to BETA while testing the role permissions.
+- [ ] Use permissions in your role that use the ˜supported' support level for role permissions. Set the role stage to ALPHA while testing the role permissions.
+- [ ] Use permissions in your role that use the ˜supported' support level for role permissions. Set the role stage to BETA while testing the role permissions.
+- [x] Use permissions in your role that use the ˜testing' support level for role permissions. Set the role stage to ALPHA while testing the role permissions.
+- [ ] Use permissions in your role that use the ˜testing' support level for role permissions. Set the role stage to BETA while testing the role permissions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1356,7 +1357,7 @@
 
 - [x] Modify the existing subnet range to 172.16.20.0/24.
 - [ ] Create a new Secondary IP Range in the VPC and configure the VMs to use that range.
-- [ ] Create a new VPC network for the VMs. Enable VPC Peering between the VMs` VPC network and the Dataproc cluster VPC network.
+- [ ] Create a new VPC network for the VMs. Enable VPC Peering between the VMs' VPC network and the Dataproc cluster VPC network.
 - [ ] Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable VPC network Peering between the Dataproc VPC network and the VMs VPC network. Configure a custom Route exchange.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1382,7 +1383,7 @@
 ### You have deployed an application on a single Compute Engine instance. The application writes logs to disk. Users start reporting errors with the application. You want to diagnose the problem. What should you do?
 
 - [ ] Navigate to Cloud Logging and view the application logs.
-- [ ] Connect to the instance`s serial console and read the application logs.
+- [ ] Connect to the instance's serial console and read the application logs.
 - [ ] Configure a Health Check on the instance and set a Low Healthy Threshold value.
 - [x] Install and configure the Cloud Logging Agent and view the logs from Cloud Logging.
 
@@ -1489,10 +1490,10 @@
 
 ### You have a Compute Engine instance hosting an application used between 9 AM and 6 PM on weekdays. You want to back up this instance daily for disaster recovery purposes. You want to keep the backups for 30 days. You want the Google-recommended solution with the least management overhead and the least number of services. What should you do?
 
-- [ ] 1. Update your instances`metadata to add the following value: snapshot"schedule: 0 1 * * * 2. Update your instances` metadata to add the following value: snapshot"retention: 30.
-- [x] 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance`s disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: - Schedule frequency: Daily - Start time: 1:00 AM " 2:00 AM - Autodelete snapshots after: 30 days.
-- [ ] 1. Create a Cloud Function that creates a snapshot of your instance`s disk. 2. Create a Cloud Function that deletes snapshots that are older than 30 days. 3. Use Cloud Scheduler to trigger both Cloud Functions daily at 1:00 AM.
-- [ ] 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance`s crontab to execute these scripts daily at 1:00 AM.
+- [ ] 1. Update your instances'metadata to add the following value: snapshot"schedule: 0 1 * * * 2. Update your instances' metadata to add the following value: snapshot"retention: 30.
+- [x] 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance's disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: - Schedule frequency: Daily - Start time: 1:00 AM " 2:00 AM - Autodelete snapshots after: 30 days.
+- [ ] 1. Create a Cloud Function that creates a snapshot of your instance's disk. 2. Create a Cloud Function that deletes snapshots that are older than 30 days. 3. Use Cloud Scheduler to trigger both Cloud Functions daily at 1:00 AM.
+- [ ] 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to execute these scripts daily at 1:00 AM.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1742,7 +1743,7 @@
 
 ### You are monitoring an application and receive user feedback that a specific error is spiking. You notice that the error is caused by a Service Account having insufficient permissions. You are able to solve the problem but want to be notified if the problem recurs. What should you do?
 
-- [x] In the Log Viewer, filter the logs on severity ˜Error` and the name of the Service Account.
+- [x] In the Log Viewer, filter the logs on severity ˜Error' and the name of the Service Account.
 - [ ] Create a sink to BigQuery to export all the logs. Create a Data Studio dashboard on the exported logs.
 - [ ] Create a custom log-based metric for the specific error to be used in an Alerting Policy.
 - [ ] Grant Project Owner access to the Service Account.
@@ -1798,7 +1799,7 @@
 
 - [ ] Create a Data Studio dashboard that uses the related BigQuery tables as a source and give the BI team view access to the Data Studio dashboard.
 - [ ] Create a Service Account for the BI team and distribute a new private key to each member of the BI team.
-- [x] Use Cloud Scheduler to schedule a batch Dataflow job to copy the data from BigQuery to the BI team`s internal data warehouse.
+- [x] Use Cloud Scheduler to schedule a batch Dataflow job to copy the data from BigQuery to the BI team's internal data warehouse.
 - [ ] Assign the IAM role of BigQuery User to a Google Group that contains the members of the BI team.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1809,5 +1810,14 @@
 - [ ] 1. Create a single VPC with a subnet for the DMZ and a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public egress traffic for the DMZ.
 - [ ] 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public ingress traffic for the DMZ.
 - [ ] 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public egress traffic for the DMZ.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an application that looks for its licensing server on the IP 10.0.3.21 You need to deploy the licensing server on Compute Engine. You do not want to change the configuration of the application and want the application to be able to reach the licensing server. What should you do?
+
+- [x] Reserve the IP 10.0.3.21 as a static internal IP address using gcloud and assign it to the licensing server.
+- [ ] Reserve the IP 10.0.3.21 as a static public IP address using gcloud and assign it to the licensing server.
+- [ ] Use the IP 10.0.3.21 as a custom ephemeral IP address and assign it to the licensing server.
+- [ ] Start the licensing server with an automatic ephemeral IP address, and then promote it to a static internal IP address.
 
 **[⬆ Back to Top](#table-of-contents)**
