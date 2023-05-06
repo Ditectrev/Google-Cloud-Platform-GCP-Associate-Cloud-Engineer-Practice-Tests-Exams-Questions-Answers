@@ -100,7 +100,7 @@
 | 92  | [You want to select and configure a solution for storing and archiving data on Google Cloud Platform. You need to support compliance objectives for data from one geographic location. This data is archived after 30 days and needs to be accessed annually. What should you do?](#you-want-to-select-and-configure-a-solution-for-storing-and-archiving-data-on-google-cloud-platform-you-need-to-support-compliance-objectives-for-data-from-one-geographic-location-this-data-is-archived-after-30-days-and-needs-to-be-accessed-annually-what-should-you-do)   |
 | 93  | [Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?](#your-company-uses-bigquery-for-data-warehousing-over-time-many-different-business-units-in-your-company-have-created-1000-datasets-across-hundreds-of-projects-your-cio-wants-you-to-examine-all-datasets-to-find-tables-that-contain-an-employee_ssn-column-you-want-to-minimize-effort-in-performing-this-task-what-should-you-do)   |
 | 94  | [You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status: What is the most likely cause?](#you-create-a-deployment-with-2-replicas-in-a-google-kubernetes-engine-cluster-that-has-a-single-preemptible-node-pool-after-a-few-minutes-you-use-kubectl-to-examine-the-status-of-your-pod-and-observe-that-one-of-them-is-still-in-pending-status-what-is-the-most-likely-cause)   |
-| 95  | [You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?](#question95)   |
+| 95  | [You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?](#you-want-to-find-out-when-users-were-added-to-cloud-spanner-identity-access-management-iam-roles-on-your-google-cloud-platform-gcp-project-what-should-you-do-in-the-gcp-console)   |
 | 96  | [Your company implemented BigQuery as an enterprise data warehouse. Users from multiple business units run queries on this data warehouse. However, you notice that query costs for BigQuery are very high, and you need to control costs. Which two methods should you use? (Choose two.)](#question96)   |
 | 97  | [You are building a product on top of Google Kubernetes Engine (GKE) You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?](#question97)   |
 | 98  | [Your customer has implemented a solution that uses Cloud Spanner and notices some read latency-related performance issues on one table. This table is accessed only by their users using a primary key. The table schema is shown below. You want to resolve the issue. What should you do?](#question98)   |
@@ -1048,9 +1048,9 @@
 ### You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?
 
 - [ ] Open the Cloud Spanner console to review configurations.
-- [x] Open the IAM &amp; admin console to review IAM policies for Cloud Spanner roles.
+- [ ] Open the IAM &amp; admin console to review IAM policies for Cloud Spanner roles.
 - [ ] Go to the Stackdriver Monitoring console and review information for Cloud Spanner.
-- [ ] Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles.
+- [x] Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles.
 
 **[⬆ Back to Top](#table-of-contents)**
 
