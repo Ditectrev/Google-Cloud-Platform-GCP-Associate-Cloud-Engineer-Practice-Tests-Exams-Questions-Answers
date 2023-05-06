@@ -107,7 +107,7 @@
 | 99  | [Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?](#your-finance-team-wants-to-view-the-billing-report-for-your-projects-you-want-to-make-sure-that-the-finance-team-does-not-get-additional-permissions-to-the-project-what-should-you-do)   |
 | 100 | [Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?](#your-organization-has-strict-requirements-to-control-access-to-google-cloud-projects-you-need-to-enable-your-site-reliability-engineers-sres-to-approve-requests-from-the-google-cloud-support-team-when-an-sre-opens-a-support-case-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 101 | [You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?](#you-need-to-host-an-application-on-a-compute-engine-instance-in-a-project-shared-with-other-teams-you-want-to-prevent-the-other-teams-from-accidentally-causing-downtime-on-that-application-which-feature-should-you-use) |
-| 102 | [Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?](#question102) |
+| 102 | [Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?](#your-organization-needs-to-grant-users-access-to-query-datasets-in-bigquery-but-prevent-them-from-accidentally-deleting-the-datasets-you-want-a-solution-that-follows-google-recommended-practices-what-should-you-do) |
 | 103 | [You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?](#question103) |
 | 104 | [Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?](#question104) |
 | 105 | [Your company has a single sign-on (SSO) identity provider that supports Security Assertion Markup Language (SAML) integration with service providers. Your company has users in Cloud Identity. You would like users to authenticate using your company's SSO provider. What should you do?](#question105) |
@@ -1116,9 +1116,9 @@
 ### Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?
 
 - [ ] Add users to roles/bigquery user role only, instead of roles/bigquery dataOwner.
-- [x] Add users to roles/bigquery dataEditor role only, instead of roles/bigquery dataOwner.
+- [ ] Add users to roles/bigquery dataEditor role only, instead of roles/bigquery dataOwner.
 - [ ] Create a custom role by removing delete permissions, and add users to that role only.
-- [ ] Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role.
+- [x] Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
