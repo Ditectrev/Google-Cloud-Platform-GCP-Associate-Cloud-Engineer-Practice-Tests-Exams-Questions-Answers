@@ -99,7 +99,7 @@
 | 91  | [Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?](#your-companys-infrastructure-is-on-premises-but-all-machines-are-running-at-maximum-capacity-you-want-to-burst-to-google-cloud-the-workloads-on-google-cloud-must-be-able-to-directly-communicate-to-the-workloads-on-premises-using-a-private-ip-range-what-should-you-do)   |
 | 92  | [You want to select and configure a solution for storing and archiving data on Google Cloud Platform. You need to support compliance objectives for data from one geographic location. This data is archived after 30 days and needs to be accessed annually. What should you do?](#you-want-to-select-and-configure-a-solution-for-storing-and-archiving-data-on-google-cloud-platform-you-need-to-support-compliance-objectives-for-data-from-one-geographic-location-this-data-is-archived-after-30-days-and-needs-to-be-accessed-annually-what-should-you-do)   |
 | 93  | [Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?](#your-company-uses-bigquery-for-data-warehousing-over-time-many-different-business-units-in-your-company-have-created-1000-datasets-across-hundreds-of-projects-your-cio-wants-you-to-examine-all-datasets-to-find-tables-that-contain-an-employee_ssn-column-you-want-to-minimize-effort-in-performing-this-task-what-should-you-do)   |
-| 94  | [You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status: What is the most likely cause?](#question94)   |
+| 94  | [You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status: What is the most likely cause?](#you-create-a-deployment-with-2-replicas-in-a-google-kubernetes-engine-cluster-that-has-a-single-preemptible-node-pool-after-a-few-minutes-you-use-kubectl-to-examine-the-status-of-your-pod-and-observe-that-one-of-them-is-still-in-pending-status-what-is-the-most-likely-cause)   |
 | 95  | [You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?](#question95)   |
 | 96  | [Your company implemented BigQuery as an enterprise data warehouse. Users from multiple business units run queries on this data warehouse. However, you notice that query costs for BigQuery are very high, and you need to control costs. Which two methods should you use? (Choose two.)](#question96)   |
 | 97  | [You are building a product on top of Google Kubernetes Engine (GKE) You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?](#question97)   |
@@ -1034,12 +1034,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status: What is the most likely cause?
+### You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status. What is the most likely cause?
+
+![Deployed pods status](images/pods.png)
 
 - [ ] The pending Pod's resource requests are too large to fit on a single node of the cluster.
-- [x] Too many Pods are already running in the cluster, and there are not enough resources left to schedule the pending Pod.
+- [ ] Too many Pods are already running in the cluster, and there are not enough resources left to schedule the pending Pod.
 - [ ] The node pool is configured with a service account that does not have permission to pull the container image used by the pending Pod.
-- [ ] The pending Pod was originally scheduled on a node that has been preempted between the creation of the Deployment and your verification of the Pods' status. It is currently being rescheduled on a new node.
+- [x] The pending Pod was originally scheduled on a node that has been preempted between the creation of the Deployment and your verification of the Pods' status. It is currently being rescheduled on a new node.
 
 **[⬆ Back to Top](#table-of-contents)**
 
