@@ -103,7 +103,7 @@
 | 95  | [You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?](#you-want-to-find-out-when-users-were-added-to-cloud-spanner-identity-access-management-iam-roles-on-your-google-cloud-platform-gcp-project-what-should-you-do-in-the-gcp-console)   |
 | 96  | [Your company implemented BigQuery as an enterprise data warehouse. Users from multiple business units run queries on this data warehouse. However, you notice that query costs for BigQuery are very high, and you need to control costs. Which two methods should you use? (Choose two.)](#your-company-implemented-bigquery-as-an-enterprise-data-warehouse-users-from-multiple-business-units-run-queries-on-this-data-warehouse-however-you-notice-that-query-costs-for-bigquery-are-very-high-and-you-need-to-control-costs-which-two-methods-should-you-use-choose-two)   |
 | 97  | [You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?](#you-are-building-a-product-on-top-of-google-kubernetes-engine-gke-you-have-a-single-gke-cluster-for-each-of-your-customers-a-pod-is-running-in-that-cluster-and-your-customers-can-run-arbitrary-code-inside-their-pod-you-want-to-maximize-the-isolation-between-your-customers-pods-what-should-you-do)   |
-| 98  | [Your customer has implemented a solution that uses Cloud Spanner and notices some read latency-related performance issues on one table. This table is accessed only by their users using a primary key. The table schema is shown below. You want to resolve the issue. What should you do?](#question98)   |
+| 98  | [Your customer has implemented a solution that uses Cloud Spanner and notices some read latency-related performance issues on one table. This table is accessed only by their users using a primary key. The table schema is shown below. You want to resolve the issue. What should you do?](#your-customer-has-implemented-a-solution-that-uses-cloud-spanner-and-notices-some-read-latency-related-performance-issues-on-one-table-this-table-is-accessed-only-by-their-users-using-a-primary-key-the-table-schema-is-shown-below-you-want-to-resolve-the-issue-what-should-you-do)   |
 | 99  | [Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?](#question99)   |
 | 100 | [Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?](#question100) |
 | 101 | [You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?](#question101) |
@@ -1075,10 +1075,14 @@
 
 ### Your customer has implemented a solution that uses Cloud Spanner and notices some read latency-related performance issues on one table. This table is accessed only by their users using a primary key. The table schema is shown below. You want to resolve the issue. What should you do?
 
+![Database table](images/db_table.png)
+
 - [ ] Remove the profile_picture field from the table.
 - [ ] Add a secondary index on the person_id column.
-- [ ] Change the primary key to not have monotonically increasing values.
-- [x] Create a secondary index using the following Data Definition Language (DDL):
+- [x] Change the primary key to not have monotonically increasing values.
+- [ ] Create a secondary index using the following Data Definition Language (DDL):
+
+![DDL](images/ddl.png)
 
 **[⬆ Back to Top](#table-of-contents)**
 
