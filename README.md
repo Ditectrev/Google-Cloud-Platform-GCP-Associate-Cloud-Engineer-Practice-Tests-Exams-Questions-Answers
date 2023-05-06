@@ -108,7 +108,7 @@
 | 100 | [Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?](#your-organization-has-strict-requirements-to-control-access-to-google-cloud-projects-you-need-to-enable-your-site-reliability-engineers-sres-to-approve-requests-from-the-google-cloud-support-team-when-an-sre-opens-a-support-case-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 101 | [You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?](#you-need-to-host-an-application-on-a-compute-engine-instance-in-a-project-shared-with-other-teams-you-want-to-prevent-the-other-teams-from-accidentally-causing-downtime-on-that-application-which-feature-should-you-use) |
 | 102 | [Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?](#your-organization-needs-to-grant-users-access-to-query-datasets-in-bigquery-but-prevent-them-from-accidentally-deleting-the-datasets-you-want-a-solution-that-follows-google-recommended-practices-what-should-you-do) |
-| 103 | [You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?](#question103) |
+| 103 | [You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?](#you-have-a-developer-laptop-with-the-cloud-sdk-installed-on-ubuntu-the-cloud-sdk-was-installed-from-the-google-cloud-ubuntu-package-repository-you-want-to-test-your-application-locally-on-your-laptop-with-cloud-datastore-what-should-you-do) |
 | 104 | [Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?](#question104) |
 | 105 | [Your company has a single sign-on (SSO) identity provider that supports Security Assertion Markup Language (SAML) integration with service providers. Your company has users in Cloud Identity. You would like users to authenticate using your company's SSO provider. What should you do?](#question105) |
 | 106 | [Your organization has a dedicated person who creates and manages all service accounts for Google Cloud projects. You need to assign this person the minimum role for projects. What should you do?](#question106) |
@@ -1126,8 +1126,8 @@
 
 - [ ] Export Cloud Datastore data using gcloud datastore export.
 - [ ] Create a Cloud Datastore index using gcloud datastore indexes create.
-- [ ] Install the google-cloud-sdk-datastore-emulator component using the apt get install command.
-- [x] Install the cloud-datastore-emulator component using the gcloud components install command.
+- [x] Install the google-cloud-sdk-datastore-emulator component using the apt get install command.
+- [ ] Install the cloud-datastore-emulator component using the gcloud components install command.
 
 **[⬆ Back to Top](#table-of-contents)**
 
