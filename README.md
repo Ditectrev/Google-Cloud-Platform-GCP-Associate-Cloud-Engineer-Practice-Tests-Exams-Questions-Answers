@@ -111,7 +111,7 @@
 | 103 | [You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?](#you-have-a-developer-laptop-with-the-cloud-sdk-installed-on-ubuntu-the-cloud-sdk-was-installed-from-the-google-cloud-ubuntu-package-repository-you-want-to-test-your-application-locally-on-your-laptop-with-cloud-datastore-what-should-you-do) |
 | 104 | [Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?](#your-company-set-up-a-complex-organizational-structure-on-google-cloud-the-structure-includes-hundreds-of-folders-and-projects-only-a-few-team-members-should-be-able-to-view-the-hierarchical-structure-you-need-to-assign-minimum-permissions-to-these-team-members-and-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 105 | [Your company has a single sign-on (SSO) identity provider that supports Security Assertion Markup Language (SAML) integration with service providers. Your company has users in Cloud Identity. You would like users to authenticate using your company's SSO provider. What should you do?](#your-company-has-a-single-sign-on-sso-identity-provider-that-supports-security-assertion-markup-language-saml-integration-with-service-providers-your-company-has-users-in-cloud-identity-you-would-like-users-to-authenticate-using-your-companys-sso-provider-what-should-you-do) |
-| 106 | [Your organization has a dedicated person who creates and manages all service accounts for Google Cloud projects. You need to assign this person the minimum role for projects. What should you do?](#question106) |
+| 106 | [Your organization has a dedicated person who creates and manages all service accounts for Google Cloud projects. You need to assign this person the minimum role for projects. What should you do?](#your-organization-has-a-dedicated-person-who-creates-and-manages-all-service-accounts-for-google-cloud-projects-you-need-to-assign-this-person-the-minimum-role-for-projects-what-should-you-do) |
 | 107 | [You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?](#question107) |
 | 108 | [A team of data scientists infrequently needs to use a Google Kubernetes Engine (GKE) cluster that you manage. They require GPUs for some long-running, non- restartable jobs. You want to minimize cost. What should you do?](#question108) |
 | 109 | [Your organization has user identities in Active Directory. Your organization wants to use Active Directory as their source of truth for identities. Your organization wants to have full control over the Google accounts used by employees for all Google services, including your Google Cloud Platform (GCP) organization. What should you do?](#question109) |
@@ -1153,8 +1153,8 @@
 
 - [ ] Add the user to roles/iam.roleAdmin role.
 - [ ] Add the user to roles/iam.securityAdmin role.
-- [x] Add the user to roles/iam.serviceAccountUser role.
-- [ ] Add the user to roles/iam.serviceAccountAdmin role.
+- [ ] Add the user to roles/iam.serviceAccountUser role.
+- [x] Add the user to roles/iam.serviceAccountAdmin role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
