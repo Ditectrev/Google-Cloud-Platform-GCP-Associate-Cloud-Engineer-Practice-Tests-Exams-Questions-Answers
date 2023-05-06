@@ -105,7 +105,7 @@
 | 97  | [You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?](#you-are-building-a-product-on-top-of-google-kubernetes-engine-gke-you-have-a-single-gke-cluster-for-each-of-your-customers-a-pod-is-running-in-that-cluster-and-your-customers-can-run-arbitrary-code-inside-their-pod-you-want-to-maximize-the-isolation-between-your-customers-pods-what-should-you-do)   |
 | 98  | [Your customer has implemented a solution that uses Cloud Spanner and notices some read latency-related performance issues on one table. This table is accessed only by their users using a primary key. The table schema is shown below. You want to resolve the issue. What should you do?](#your-customer-has-implemented-a-solution-that-uses-cloud-spanner-and-notices-some-read-latency-related-performance-issues-on-one-table-this-table-is-accessed-only-by-their-users-using-a-primary-key-the-table-schema-is-shown-below-you-want-to-resolve-the-issue-what-should-you-do)   |
 | 99  | [Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?](#your-finance-team-wants-to-view-the-billing-report-for-your-projects-you-want-to-make-sure-that-the-finance-team-does-not-get-additional-permissions-to-the-project-what-should-you-do)   |
-| 100 | [Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?](#question100) |
+| 100 | [Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?](#your-organization-has-strict-requirements-to-control-access-to-google-cloud-projects-you-need-to-enable-your-site-reliability-engineers-sres-to-approve-requests-from-the-google-cloud-support-team-when-an-sre-opens-a-support-case-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 101 | [You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?](#question101) |
 | 102 | [Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?](#question102) |
 | 103 | [You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?](#question103) |
@@ -1098,9 +1098,9 @@
 ### Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?
 
 - [ ] Add your SREs to roles/iam.roleAdmin role.
-- [x] Add your SREs to roles/accessapproval.approver role.
+- [ ] Add your SREs to roles/accessapproval.approver role.
 - [ ] Add your SREs to a group and then add this group to roles/iam.roleAdmin.role.
-- [ ] Add your SREs to a group and then add this group to roles/accessapproval.approver role.
+- [x] Add your SREs to a group and then add this group to roles/accessapproval.approver role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
