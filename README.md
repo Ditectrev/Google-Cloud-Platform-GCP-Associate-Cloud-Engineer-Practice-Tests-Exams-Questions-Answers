@@ -112,7 +112,7 @@
 | 104 | [Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?](#your-company-set-up-a-complex-organizational-structure-on-google-cloud-the-structure-includes-hundreds-of-folders-and-projects-only-a-few-team-members-should-be-able-to-view-the-hierarchical-structure-you-need-to-assign-minimum-permissions-to-these-team-members-and-you-want-to-follow-google-recommended-practices-what-should-you-do) |
 | 105 | [Your company has a single sign-on (SSO) identity provider that supports Security Assertion Markup Language (SAML) integration with service providers. Your company has users in Cloud Identity. You would like users to authenticate using your company's SSO provider. What should you do?](#your-company-has-a-single-sign-on-sso-identity-provider-that-supports-security-assertion-markup-language-saml-integration-with-service-providers-your-company-has-users-in-cloud-identity-you-would-like-users-to-authenticate-using-your-companys-sso-provider-what-should-you-do) |
 | 106 | [Your organization has a dedicated person who creates and manages all service accounts for Google Cloud projects. You need to assign this person the minimum role for projects. What should you do?](#your-organization-has-a-dedicated-person-who-creates-and-manages-all-service-accounts-for-google-cloud-projects-you-need-to-assign-this-person-the-minimum-role-for-projects-what-should-you-do) |
-| 107 | [You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?](#question107) |
+| 107 | [You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?](#you-are-building-an-archival-solution-for-your-data-warehouse-and-have-selected-cloud-storage-to-archive-your-data-your-users-need-to-be-able-to-access-this-archived-data-once-a-quarter-for-some-regulatory-requirements-you-want-to-select-a-cost-efficient-option-which-storage-option-should-you-use) |
 | 108 | [A team of data scientists infrequently needs to use a Google Kubernetes Engine (GKE) cluster that you manage. They require GPUs for some long-running, non- restartable jobs. You want to minimize cost. What should you do?](#question108) |
 | 109 | [Your organization has user identities in Active Directory. Your organization wants to use Active Directory as their source of truth for identities. Your organization wants to have full control over the Google accounts used by employees for all Google services, including your Google Cloud Platform (GCP) organization. What should you do?](#question109) |
 | 110 | [You have successfully created a development environment in a project for an application. This application uses Compute Engine and Cloud SQL. Now you need to create a production environment for this application. The security team has forbidden the existence of network routes between these 2 environments and has asked you to follow Google-recommended practices. What should you do?](#question110) |
@@ -1160,9 +1160,9 @@
 
 ### You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?
 
-- [x] Cold Storage
-- [ ] Nearline Storage
-- [ ] Regional Storage
+- [ ] Cold Storage.
+- [x] Nearline Storage.
+- [ ] Regional Storage.
 - [ ] Multi-Regional Storage.
 
 **[⬆ Back to Top](#table-of-contents)**
