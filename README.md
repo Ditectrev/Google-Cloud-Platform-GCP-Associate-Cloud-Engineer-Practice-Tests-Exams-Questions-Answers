@@ -1349,7 +1349,7 @@
 
 ### You have an application on a general-purpose Compute Engine instance that is experiencing excessive disk read throttling on its Zonal SSD Persistent Disk. The application primarily reads large files from disk. The disk size is currently 350 GB. You want to provide the maximum amount of throughput while minimizing costs. What should you do?
 
-- [ ] Increase the size of the disk to 1 T.
+- [ ] Increase the size of the disk to 1 TB.
 - [ ] Increase the allocated CPU to the instance.
 - [x] Migrate to use a Local SSD on the instance.
 - [ ] Migrate to use a Regional SSD on the instance.
