@@ -155,7 +155,7 @@
 | 147 | [You are hosting an application from Compute Engine virtual machines (VMs) in us"central1"a. You want to adjust your design to support the failure of a single Compute Engine zone, eliminate downtime, and minimize cost. What should you do?](#you-are-hosting-an-application-from-compute-engine-virtual-machines-vms-in-uscentral1a-you-want-to-adjust-your-design-to-support-the-failure-of-a-single-compute-engine-zone-eliminate-downtime-and-minimize-cost-what-should-you-do) |
 | 148 | [A colleague handed over a Google Cloud Platform project for you to maintain. As part of a security checkup, you want to review who has been granted the Project Owner role. What should you do?](#a-colleague-handed-over-a-google-cloud-platform-project-for-you-to-maintain-as-part-of-a-security-checkup-you-want-to-review-who-has-been-granted-the-project-owner-role-what-should-you-do) |
 | 149 | [You are running multiple VPC-native Google Kubernetes Engine clusters in the same subnet. The IPs available for the nodes are exhausted, and you want to ensure that the clusters can grow in nodes when needed. What should you do?](#you-are-running-multiple-vpc-native-google-kubernetes-engine-clusters-in-the-same-subnet-the-ips-available-for-the-nodes-are-exhausted-and-you-want-to-ensure-that-the-clusters-can-grow-in-nodes-when-needed-what-should-you-do) |
-| 150 | [You have a batch workload that runs every night and uses a large number of virtual machines (VMs) It is fault-tolerant and can tolerate some of the VMs being terminated. The current cost of VMs is too high. What should you do?](#question150) |
+| 150 | [You have a batch workload that runs every night and uses a large number of virtual machines (VMs) It is fault-tolerant and can tolerate some of the VMs being terminated. The current cost of VMs is too high. What should you do?](#you-have-a-batch-workload-that-runs-every-night-and-uses-a-large-number-of-virtual-machines-vms-it-is-fault-tolerant-and-can-tolerate-some-of-the-vms-being-terminated-the-current-cost-of-vms-is-too-high-what-should-you-do) |
 | 151 | [You are working with a user to set up an application in a new VPC behind a firewall. The user is concerned about data egress. You want to configure the fewest open egress ports. What should you do?](#question151) |
 | 152 | [Your company runs its Linux workloads on Compute Engine instances. Your company will be working with a new operations partner that does not use Google Accounts. You need to grant access to the instances to your operations partner so they can maintain the installed tooling. What should you do?](#question152) |
 | 153 | [You have created a code snippet that should be triggered whenever a new file is uploaded to a Cloud Storage bucket. You want to deploy this code snippet. What should you do?](#question153) |
@@ -1547,8 +1547,8 @@
 
 ### You have a batch workload that runs every night and uses a large number of virtual machines (VMs) It is fault-tolerant and can tolerate some of the VMs being terminated. The current cost of VMs is too high. What should you do?
 
-- [ ] Run a test using simulated maintenance events. If the test is successful, use preemptible N1 Standard VMs when running future jobs.
-- [x] Run a test using simulated maintenance events. If the test is successful, use N1 Standard VMs when running future jobs.
+- [x] Run a test using simulated maintenance events. If the test is successful, use preemptible N1 Standard VMs when running future jobs.
+- [ ] Run a test using simulated maintenance events. If the test is successful, use N1 Standard VMs when running future jobs.
 - [ ] Run a test using a managed instance group. If the test is successful, use N1 Standard VMs in the managed instance group when running future jobs.
 - [ ] Run a test using N1 standard VMs instead of N2. If the test is successful, use N1 Standard VMs when running future jobs.
 
