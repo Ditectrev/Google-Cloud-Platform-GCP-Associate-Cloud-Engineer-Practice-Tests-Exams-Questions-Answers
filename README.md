@@ -158,7 +158,7 @@
 | 150 | [You have a batch workload that runs every night and uses a large number of virtual machines (VMs) It is fault-tolerant and can tolerate some of the VMs being terminated. The current cost of VMs is too high. What should you do?](#you-have-a-batch-workload-that-runs-every-night-and-uses-a-large-number-of-virtual-machines-vms-it-is-fault-tolerant-and-can-tolerate-some-of-the-vms-being-terminated-the-current-cost-of-vms-is-too-high-what-should-you-do) |
 | 151 | [You are working with a user to set up an application in a new VPC behind a firewall. The user is concerned about data egress. You want to configure the fewest open egress ports. What should you do?](#you-are-working-with-a-user-to-set-up-an-application-in-a-new-vpc-behind-a-firewall-the-user-is-concerned-about-data-egress-you-want-to-configure-the-fewest-open-egress-ports-what-should-you-do) |
 | 152 | [Your company runs its Linux workloads on Compute Engine instances. Your company will be working with a new operations partner that does not use Google Accounts. You need to grant access to the instances to your operations partner so they can maintain the installed tooling. What should you do?](#your-company-runs-its-linux-workloads-on-compute-engine-instances-your-company-will-be-working-with-a-new-operations-partner-that-does-not-use-google-accounts-you-need-to-grant-access-to-the-instances-to-your-operations-partner-so-they-can-maintain-the-installed-tooling-what-should-you-do) |
-| 153 | [You have created a code snippet that should be triggered whenever a new file is uploaded to a Cloud Storage bucket. You want to deploy this code snippet. What should you do?](#question153) |
+| 153 | [You have created a code snippet that should be triggered whenever a new file is uploaded to a Cloud Storage bucket. You want to deploy this code snippet. What should you do?](#you-have-created-a-code-snippet-that-should-be-triggered-whenever-a-new-file-is-uploaded-to-a-cloud-storage-bucket-you-want-to-deploy-this-code-snippet-what-should-you-do) |
 | 154 | [You have been asked to set up Object Lifecycle Management for objects stored in storage buckets. The objects are written once and accessed frequently for 30 days. After 30 days, the objects are not read again unless there is a special need. The objects should be kept for three years, and you need to minimize cost. What should you do?](#question154) |
 | 155 | [You are storing sensitive information in a Cloud Storage bucket. For legal reasons, you need to be able to record all requests that read any of the stored data. You want to make sure you comply with these requirements. What should you do?](#question155) |
 | 156 | [You are the team lead of a group of 10 developers. You provided each developer with an individual Google Cloud Project that they can use as their personal sandbox to experiment with different Google Cloud solutions. You want to be notified if any of the developers are spending above $500 per month on their sandbox environment. What should you do?](#question156) |
@@ -1574,8 +1574,8 @@
 
 ### You have created a code snippet that should be triggered whenever a new file is uploaded to a Cloud Storage bucket. You want to deploy this code snippet. What should you do?
 
-- [x] Use App Engine and configure Cloud Scheduler to trigger the application using Pub/Sub.
-- [ ] Use Cloud Functions and configure the bucket as a trigger resource.
+- [ ] Use App Engine and configure Cloud Scheduler to trigger the application using Pub/Sub.
+- [x] Use Cloud Functions and configure the bucket as a trigger resource.
 - [ ] Use Google Kubernetes Engine and configure a CronJob to trigger the application using Pub/Sub.
 - [ ] Use Dataflow as a batch job, and configure the bucket as a data source.
 
