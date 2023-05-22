@@ -614,8 +614,8 @@
 
 ### You have a Dockerfile that you need to deploy on Kubernetes Engine. What should you do?
 
-- [ ] Use kubectl app deploy <dockerfilename>.
-- [ ] Use gcloud app deploy <dockerfilename>.
+- [ ] Use kubectl app deploy `<dockerfilename>`.
+- [ ] Use gcloud app deploy `<dockerfilename>`.
 - [x] Create a docker image from the Dockerfile and upload it to Container Registry. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
 - [ ] Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
 
