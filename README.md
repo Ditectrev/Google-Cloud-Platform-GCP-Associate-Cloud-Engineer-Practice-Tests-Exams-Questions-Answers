@@ -526,7 +526,7 @@
 
 - [ ] Download the private key from the service account, and add it to each VMs custom metadata.
 - [ ] Download the private key from the service account, and add the private key to each VM's SSH keys.
-- [x] Grant the service account the IAM Role of Compute Storage Admin in the project called proj-vm.
+- [x] Grant the service account the IAM role of Compute Storage Admin in the project called proj-vm.
 - [ ] When creating the VMs, set the service account's API scope for Compute Engine to read/write.
 
 **[⬆ Back to Top](#table-of-contents)**
