@@ -850,7 +850,7 @@
 - [ ] After the VM has been created, use your Google Account credentials to log in into the VM.
 - [x] After the VM has been created, use gcloud compute reset-windows-password to retrieve the login credentials for the VM.
 - [ ] When creating the VM, add metadata to the instance using 'windows-password' as the key and a password as the value.
-- [ ] After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM.
+- [ ] After the VM has been created, download the JSON Private Key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM.
 
 **[⬆ Back to Top](#table-of-contents)**
 
