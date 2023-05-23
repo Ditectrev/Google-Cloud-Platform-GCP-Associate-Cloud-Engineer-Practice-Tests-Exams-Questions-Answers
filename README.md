@@ -902,7 +902,7 @@
 ### You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?
 
 - [ ] Verify that both projects are in a GCP Organization. Create a new VPC and add all instances.
-- [x] Verify that both projects are in a GCP Organization. Share the VPC from one project and request that the Compute Engine instances in the other project use this shared VP.
+- [x] Verify that both projects are in a GCP Organization. Share the VPC from one project and request that the Compute Engine instances in the other project use this shared VPC.
 - [ ] Verify that you are the Project Administrator of both projects. Create two new VPCs and add all instances.
 - [ ] Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances.
 
