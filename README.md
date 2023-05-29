@@ -1583,7 +1583,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You have a Compute Engine instance hosting an application used between 9 AM and 6 PM on weekdays. You want to back up this instance daily for disaster recovery purposes. You want to keep the backups for 30 days. You want the Google-recommended solution with the least management overhead and the least number of services. What should you do?
 
 - [ ] 1. Update your instances' metadata to add the following value: snapshot"schedule: 0 1 * * * 2. Update your instances' metadata to add the following value: snapshot"retention: 30.
-- [x] 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance's disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: Schedule frequency: Daily. Start time: 1:00 AM " 2:00 AM. Autodelete snapshots after: 30 days.
+- [x] 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance's disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: Schedule frequency: Daily. Start time: 1:00 AM - 2:00 AM. Autodelete snapshots after: 30 days.
 - [ ] 1. Create a Cloud Function that creates a snapshot of your instance's disk. 2. Create a Cloud Function that deletes snapshots that are older than 30 days. 3. Use Cloud Scheduler to trigger both Cloud Functions daily at 1:00 AM.
 - [ ] 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to execute these scripts daily at 1:00 AM.
 
