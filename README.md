@@ -48,7 +48,7 @@
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
 6. This course is **not** GCP Associate Cloud Engineer (ACE) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
-7. 180 **unique** questions.
+7. 179 **unique** questions.
 
 ## ☝️ Course Updates
 
@@ -274,7 +274,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 177 | [You are creating an application that will run on Google Kubernetes Engine. You have identified MongoDB as the most suitable database system for your application and want to deploy a managed MongoDB environment that provides a support SLA. What should you do?](#you-are-creating-an-application-that-will-run-on-google-kubernetes-engine-you-have-identified-mongodb-as-the-most-suitable-database-system-for-your-application-and-want-to-deploy-a-managed-mongodb-environment-that-provides-a-support-sla-what-should-you-do) |
 | 178 | [You are managing a project for the Business Intelligence (BI) department in your company. A data pipeline ingests data into BigQuery via streaming. You want the users in the BI department to be able to run the custom SQL queries against the latest data in BigQuery. What should you do?](#you-are-managing-a-project-for-the-business-intelligence-bi-department-in-your-company-a-data-pipeline-ingests-data-into-bigquery-via-streaming-you-want-the-users-in-the-bi-department-to-be-able-to-run-the-custom-sql-queries-against-the-latest-data-in-bigquery-what-should-you-do) |
 | 179 | [Your company is moving its entire workload to Compute Engine. Some servers should be accessible through the Internet, and other servers should only be accessible over the internal network. All servers need to be able to talk to each other over specific ports and protocols. The current on-premises network relies on a demilitarized zone (DMZ) for the public servers and a Local Area Network (LAN) for the private servers. You need to design the networking infrastructure on Google Cloud to match these requirements. What should you do?](#your-company-is-moving-its-entire-workload-to-compute-engine-some-servers-should-be-accessible-through-the-internet-and-other-servers-should-only-be-accessible-over-the-internal-network-all-servers-need-to-be-able-to-talk-to-each-other-over-specific-ports-and-protocols-the-current-on-premises-network-relies-on-a-demilitarized-zone-dmz-for-the-public-servers-and-a-local-area-network-lan-for-the-private-servers-you-need-to-design-the-networking-infrastructure-on-google-cloud-to-match-these-requirements-what-should-you-do) |
-| 180 | [You have an application that looks for its licensing server on the IP 10.0.3.21 You need to deploy the licensing server on Compute Engine. You do not want to change the configuration of the application and want the application to be able to reach the licensing server. What should you do?](#you-have-an-application-that-looks-for-its-licensing-server-on-the-ip-100321-you-need-to-deploy-the-licensing-server-on-compute-engine-you-do-not-want-to-change-the-configuration-of-the-application-and-want-the-application-to-be-able-to-reach-the-licensing-server-what-should-you-do)
 
 ### You significantly changed a complex Deployment Manager template and want to confirm that the dependencies of all defined resources are properly met before committing it to the project. You want the most rapid feedback on your changes. What should you do?
 
@@ -1902,14 +1901,5 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] 1. Create a single VPC with a subnet for the DMZ and a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public egress traffic for the DMZ.
 - [ ] 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public ingress traffic for the DMZ.
 - [ ] 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public egress traffic for the DMZ.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You have an application that looks for its licensing server on the IP 10.0.3.21 You need to deploy the licensing server on Compute Engine. You do not want to change the configuration of the application and want the application to be able to reach the licensing server. What should you do?
-
-- [x] Reserve the IP 10.0.3.21 as a static internal IP address using gcloud and assign it to the licensing server.
-- [ ] Reserve the IP 10.0.3.21 as a static public IP address using gcloud and assign it to the licensing server.
-- [ ] Use the IP 10.0.3.21 as a custom ephemeral IP address and assign it to the licensing server.
-- [ ] Start the licensing server with an automatic ephemeral IP address, and then promote it to a static internal IP address.
 
 **[⬆ Back to Top](#table-of-contents)**
