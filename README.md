@@ -1620,7 +1620,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] In the console, validate which SSH keys have been stored as project-wide keys.
 - [ ] Navigate to Identity-Aware Proxy and check the permissions for these resources.
 - [ ] Enable Audit Logs on the IAM &amp; admin page for all resources, and validate the results.
-- [x] Use the command gcloud projects get "iam" policy to view the current role assignments.
+- [x] Use the command gcloud projects get-iam-policy to view the current role assignments.
 
 **[⬆ Back to Top](#table-of-contents)**
 
