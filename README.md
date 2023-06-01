@@ -34,7 +34,7 @@
    - Cloud SQL;
    - Cloud Storage;
    - Coldline Storage;
-   - ;
+   - Compute Engine;
    - Deployment Manager;
    - Google Cloud Platform Console (GCP Console);
    - Google App Engine;
