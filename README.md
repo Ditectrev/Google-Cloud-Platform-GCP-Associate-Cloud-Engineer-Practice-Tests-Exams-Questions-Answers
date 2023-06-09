@@ -1311,7 +1311,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You are managing several Google Cloud Platform (GCP) projects and need access to all logs for the past 60 days. You want to be able to explore and quickly analyze the log contents. You want to follow Google-recommended practices to obtain the combined logs for all projects. What should you do?
 
-- [ ] Navigate to Stackdriver Logging and select resource.labels.project_id="*"
+- [ ] Navigate to Stackdriver Logging and select resource.labels.project_id="*".
 - [x] Create a Stackdriver Logging Export with a Sink destination to a BigQuery dataset. Configure the table expiration to 60 days.
 - [ ] Create a Stackdriver Logging Export with a Sink destination to Cloud Storage. Create a lifecycle rule to delete objects after 60 days.
 - [ ] Configure a Cloud Scheduler job to read from Stackdriver and store the logs in BigQuery. Configure the table expiration to 60 days.
