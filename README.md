@@ -56,6 +56,10 @@
 
 - Launch of the course.
 
+**[v1.1.0](https://github.com/Ditectrev/Google-Cloud-Platform-GCP-Associate-Cloud-Engineer-Practice-Tests-Exams-Questions-Answers/releases/tag/v1.1.0): June 9, 2023.**
+
+- Proofreading & deleted 1 repeated question.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](https://github.com/Ditectrev/Google-Cloud-Platform-GCP-Associate-Cloud-Engineer-Practice-Tests-Exams-Questions-Answers#table-of-contents), the wrong answer, please submit an [issue](https://github.com/Ditectrev/Google-Cloud-Platform-GCP-Associate-Cloud-Engineer-Practice-Tests-Exams-Questions-Answers/issues). Even better would be a [Pull Request (PR)](https://github.com/Ditectrev/Google-Cloud-Platform-GCP-Associate-Cloud-Engineer-Practice-Tests-Exams-Questions-Answers/pulls).
