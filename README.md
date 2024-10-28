@@ -1258,8 +1258,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?
 
-- [ ] Cold Storage.
-- [x] Nearline Storage.
+- [x] Cold Storage.
+- [ ] Nearline Storage.
 - [ ] Regional Storage.
 - [ ] Multi-Regional Storage.
 
