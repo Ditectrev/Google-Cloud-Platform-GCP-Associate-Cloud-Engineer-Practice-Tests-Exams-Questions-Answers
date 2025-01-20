@@ -13,8 +13,8 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 - 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=-w8UEQAAQBAJ),
 - 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1476792526),
 - 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1499840969),
-- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/405141057205?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2380676&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
-- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/405141056389?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2380676&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/405489377463?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2047675&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/405489377523?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2047675&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
 💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
@@ -29,7 +29,7 @@ It's great to learn these questions as your exam preparation, and, yes, you shou
 
 Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
 
-## ✨ This course is unlike any GCP Associate Cloud Engineer (ACE) course you will find online.
+## ✨ This course is unlike any Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) course you will find online.
 
 ✋ Join a live online community and a course taught by industry experts and pass the GCP Associate Cloud Engineer (ACE) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
@@ -70,7 +70,7 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
-6. This course is **not** GCP Associate Cloud Engineer (ACE) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
+6. This course is **not** Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
 7. 179 **unique** questions.
 
 ## ☝️ Course Updates
