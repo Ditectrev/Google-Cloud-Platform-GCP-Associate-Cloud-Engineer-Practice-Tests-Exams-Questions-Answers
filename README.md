@@ -717,8 +717,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Change the default region property setting in the existing GCP project to asia-northeast1.
 - [ ] Change the region property setting in the existing App Engine application from us-central to asia-northeast1.
-- [ ] Create a second App Engine application in the existing GCP project and specify asia-northeast1 as the region to serve your application.
-- [x] Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.
+- [x] Create a second App Engine application in the existing GCP project and specify asia-northeast1 as the region to serve your application.
+- [ ] Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.
 
 **[⬆ Back to Top](#table-of-contents)**
 
