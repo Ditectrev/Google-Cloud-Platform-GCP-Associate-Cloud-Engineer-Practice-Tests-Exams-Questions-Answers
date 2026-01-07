@@ -122,6 +122,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - 0️⃣ Prior knowledge is required;
 - ✅ You can pass the Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Exam solely based on our Practice Tests Exams.
 
+## Live Practice
+You can also practice directly at:
+URL: https://associate-cloud-engineer.vercel.app
+GitHub: https://github.com/masonwongcs/associate-cloud-engineer
+
 ## Table of Contents
 
 | No. | Questions |
